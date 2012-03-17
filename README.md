@@ -8,6 +8,7 @@ such as errors, warnings, and general info.
 
 ### Example
 ```
+&lt;script&gt;
 /*
  * Set the paths to images so apMessageBox knows where to find them.
  */
@@ -24,6 +25,7 @@ $("#myErrorButton").on("click", function() {
 $("#myInfoButton").on("click", function() {
 	apMessageBox.information({ message: "Well howdy!" });
 });
+&lt;/script&gt;
 ```
 
 
